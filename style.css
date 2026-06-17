@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    min-height: 100vh;
+}
+
+.sidebar {
+    background: #0d47a1;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar p {
+    margin: 15px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.card {
+    background: #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.student {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
